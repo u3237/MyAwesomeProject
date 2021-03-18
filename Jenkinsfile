@@ -1,1 +1,3 @@
-
+pipeline {
+  echo 'hoge'
+}
