@@ -1,5 +1,5 @@
 pipeline {
-  agent 'Xcode 12'
+  agent { label 'Xcode 12' }
   stages {
     stage('hoge') {
       steps {
